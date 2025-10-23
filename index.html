@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Curriculum Vitae - (Ubah Nama)</title>
+<!-- Bagian CSS -->
+  <style>
+    /* reset */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f6f8fb;
+      padding: 30px;
+      color: #123;
+    }
+
+    /* Container*/
+    .cv-paper {
+      width: 800px;
+      max-width: 100%;
+      margin: 0 auto;
+      background: white;
+      border-radius: 10px;
+      padding: 28px 36px;
+      position: relative;
+      box-shadow: 0 4px 14px rgba(10,30,60,0.08);
+      border: 6px solid #123f6a;
+    }
+
+    .top {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .title {
+      flex: 1;
+    }
+
+    .title h1 {
+      font-size: 28px;
+      letter-spacing: 4px;
+      margin-bottom: 6px;
+    }
+
+    .title h1 span.blue {
+      color: #2b84c7;
+    }
+
+    /*Foto*/
+    .photo {
+      width: 110px;
+      height: 130px;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 3px solid #e9eef6;
+    }
+
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* personal Info*/
+    .personal {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: 160px 1fr;
+      gap: 6px 18px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .personal .label {
+      color: #222;
+      font-weight: 600;
+    }
+    .personal .value {
+      color: #333;
+    }
+
+    .section-title {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e6eef6;
+      color: #2b84c7;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+
+    /* Bagian pendidikan & pengalaman */
+    .education, .skills, .experience {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+
+    .edu-item, .exp-item {
+      display: flex;
+      gap: 18px;
+      margin: 10px 0;
+    }
+
+    .edu-date {
+      width: 110px;
+      font-weight: 700;
+      color: #0f3a5a;
+    }
+    .edu-desc {
+      flex: 1;
+    }
+
+    /* list skill sederhana */
+    .skills ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .skills li::before {
+      content: "✓";
+      margin-right: 8px;
+      color: #2b84c7;
+    }
+
+    /* footer kecil */
+    .cv-footer {
+      text-align: center;
+      margin-top: 28px;
+      font-size: 12px;
+      color: #9aa9bd;
+      letter-spacing: 2px;
+    }
+
+    /* Responsive*/
+    @media (max-width: 560px) {
+      .top { flex-direction: column; align-items: flex-start; }
+      .personal { grid-template-columns: 1fr; }
+      .photo { align-self: center; }
+    }
+  </style>
+</head>
+<!-- Bagian HTML -->
+<body>
+    <div class="cv-paper">
+    <div class="top">
+      <div class="title">
+        <h1>CURRICULUM <span class="blue">VITAE</span></h1>
+      </div>
+
+      <div class="photo">
+        <img src="WhatsApp Image 2025-10-21 at 12.09.47.jpeg" alt="Foto Profile"> <!--tempat memasukkan foto-->
+      </div>
+    </div>
+
+    <!-- personal info -->
+    <div class="personal" style="margin-top:14px;">
+      <div class="label">Nama :o.k riza sighat fahlevi</div><div class="value"></div>
+      <div class="label">Tempat, Tgl Lahir :tandam redyy</div><div class="value"></div>
+      <div class="label">Jenis Kelamin :mix</div><div class="value"></div>
+      <div class="label">Agama :islam</div><div class="value"></div>
+      <div class="label">Kewarganegaraan :kongo african</div><div class="value"></div>
+      <div class="label">Status :bangsawan</div><div class="value"></div>
+      <div class="label">Alamat Sekarang :bumi</div><div class="value"></div>
+      <div class="label">Telepon :tidak ada
+      <div class="label">Email:tidak ada
+       <div class="label">Umur : 18 tahun </div><div class="value"></div>
+    </div>
+
+    <!-- PENDIDIKAN -->
+    <div class="section-title">PENDIDIKAN</div>
+    <div class="education">1.TK maju(anti mundur)
+      <div class="edu-item">2.SD maju(anti mundur)
+        <div class="edu-date"></div>3.SMPN 2 Binjai
+        <div class="edu-desc"><strong></strong></div>4.SMAN 1 Binjai
+        <div class="edu-date"></div>
+        <div class="edu-desc"><strong></strong></div>
+      </div>
+
+    </div>
+
+    <!-- skill -->
+    <div class="section-title">KEMAMPUAN</div>
+    <div class="skills">
+      <ul>
+        <li>hypnotis</li>
+        <li>lebih tinggi dari orang tinggi</li>
+        <li>punya kawan nama bapak nya syaidd</li>
+      </ul>
+    </div>
+
+    <!-- Sertifikat -->
+    <div class="section-title">Sertifikat</div>1.juara pargoy antar negara
+    <div class="experience">
+      <div class="exp-item">
+        <div class="edu-date"></div>
+        <div class="edu-desc"><strong></strong> </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="edu-date"></div>
+        <div class="edu-desc"><strong></strong></div>
+      </div>
+    </div>
+
+    <div class="cv-footer">www.SMA NEGERI 1 BINJAI.com</div>
+  </div>
+
+</body>
+</html>
